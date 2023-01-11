@@ -1,0 +1,1007 @@
+[14:26:21] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.14.12
+[14:26:21] [ForkJoinPool-1-worker-8/WARN]: Mod createaddition uses the version ${version} which isn't compatible with Loader's extended semantic version format (Could not parse version number component '${version}'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[14:26:21] [ForkJoinPool-1-worker-5/WARN]: Mod wands uses the version 2.6.3_release which isn't compatible with Loader's extended semantic version format (Could not parse version number component '3_release'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[14:26:21] [ForkJoinPool-1-worker-2/WARN]: Mod create uses the version 0.5.0g-796+1.19.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0g'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[14:26:21] [main/INFO]: Loading 143 mods:
+	- additionalentityattributes 1.0.0+1.19 via apoli
+	- alternate-current 1.4.0
+	- apoli 2.6.1 via origins
+	- appleskin 2.4.1+mc1.19
+	- architectury 6.4.62
+	- badpackets 0.2.1
+	- bclib 2.1.5
+	- betterend 2.1.2
+	- betternether 7.1.2
+	- blue_endless_jankson 1.2.1 via owo
+	- calio 1.7.0 via apoli
+	- cardinal-components-base 5.0.1 via apoli
+	- cardinal-components-entity 5.0.1 via apoli
+	- cloth-basic-math 0.6.1 via cloth-config
+	- cloth-config 8.2.88
+	- clumps 9.0.0+14
+	- com_electronwill_night-config_core 3.6.5 via forgeconfigapiport
+	- com_electronwill_night-config_toml 3.6.5 via forgeconfigapiport
+	- com_eliotlash_mclib_mclib 20 via geckolib3
+	- com_github_llamalad7_mixinextras 0.1.1 via porting_lib_base
+	- com_google_code_findbugs_jsr305 3.0.2 via create
+	- com_velocitypowered_velocity-native 3.1.2-SNAPSHOT via krypton
+	- create 0.5.0g-796+1.19.2
+	- createaddition ${version}
+	- debugify 2.8.0
+	- deepslatecutting 1.5.0
+	- dripstone_fluid_lib 2.0.1 via milk
+	- ellemes_container_lib 2.1.0-alpha.12 via expandedstorage
+	- expandeddelight 0.2.5
+	- expandedstorage 8.0.5
+	- fabric-api 0.69.0+1.19.2
+	- fabric-api-base 0.4.13+0d0f210290 via fabric-api
+	- fabric-api-lookup-api-v1 1.6.12+93d8cb8290 via fabric-api
+	- fabric-biome-api-v1 9.0.20+0d0f210290 via fabric-api
+	- fabric-block-api-v1 1.0.1+12bfe4ea90 via fabric-api
+	- fabric-command-api-v1 1.2.13+f71b366f90 via fabric-api
+	- fabric-command-api-v2 2.1.9+93d8cb8290 via fabric-api
+	- fabric-commands-v0 0.2.30+df3654b390 via fabric-api
+	- fabric-containers-v0 0.1.38+df3654b390 via fabric-api
+	- fabric-content-registries-v0 3.4.4+6064db2a90 via fabric-api
+	- fabric-convention-tags-v1 1.2.0+27265b3490 via fabric-api
+	- fabric-crash-report-info-v1 0.2.7+aeb40ebe90 via fabric-api
+	- fabric-data-generation-api-v1 5.3.3+ad31814d90 via fabric-api
+	- fabric-dimensions-v1 2.1.33+0d0f210290 via fabric-api
+	- fabric-entity-events-v1 1.5.2+9244241690 via fabric-api
+	- fabric-events-interaction-v0 0.4.31+6eb9a2a190 via fabric-api
+	- fabric-events-lifecycle-v0 0.2.31+df3654b390 via fabric-api
+	- fabric-game-rule-api-v1 1.0.23+c6af733c90 via fabric-api
+	- fabric-item-api-v1 1.6.1+fa140d5990 via fabric-api
+	- fabric-item-groups-v0 0.3.36+9244241690 via fabric-api
+	- fabric-language-kotlin 1.8.7+kotlin.1.7.22
+	- fabric-lifecycle-events-v1 2.2.2+9244241690 via fabric-api
+	- fabric-loot-api-v2 1.1.10+83a8659290 via fabric-api
+	- fabric-loot-tables-v1 1.1.13+9e7660c690 via fabric-api
+	- fabric-message-api-v1 5.0.5+93d8cb8290 via fabric-api
+	- fabric-mining-level-api-v1 2.1.21+33fbc73890 via fabric-api
+	- fabric-networking-api-v1 1.2.8+3b1d070f90 via fabric-api
+	- fabric-networking-v0 0.3.25+df3654b390 via fabric-api
+	- fabric-object-builder-api-v1 4.1.3+06e0e25190 via fabric-api
+	- fabric-particles-v1 1.0.12+79adfe0a90 via fabric-api
+	- fabric-permissions-api-v0 0.1-SNAPSHOT via spark
+	- fabric-registry-sync-v0 0.9.29+9244241690 via fabric-api
+	- fabric-rendering-data-attachment-v1 0.3.17+0d0f210290 via fabric-api
+	- fabric-rendering-fluids-v1 3.0.9+c6af733c90 via fabric-api
+	- fabric-resource-conditions-api-v1 2.1.1+aae9039d90 via fabric-api
+	- fabric-resource-loader-v0 0.8.2+574a764890 via fabric-api
+	- fabric-screen-handler-api-v1 1.3.4+1cc24b1b90 via fabric-api
+	- fabric-transfer-api-v1 2.1.3+9d081d6490 via fabric-api
+	- fabric-transitive-access-wideners-v1 1.3.2+42d99c3290 via fabric-api
+	- fabricloader 0.14.12
+	- fake-player-api 0.5.0 via create
+	- fallingtree 3.10.0
+	- farmersdelight 1.19.2-1.3.9
+	- farmersknives 2.3
+	- ferritecore 5.0.3
+	- fiber 0.23.0-2 via patchouli
+	- forge_tags 3.0 via porting_lib
+	- forgeconfigapiport 4.2.6 via create
+	- ftbchunks 1902.3.13-build.207
+	- ftblibrary 1902.3.10-build.162
+	- ftbteams 1902.2.10-build.76
+	- ftbultimine 1902.3.5-build.65
+	- fwaystones 3.0.5+mc1.19.2
+	- geckolib3 3.1.38
+	- ingredient-extension-api 3.0.6
+	- inventorysorter 1.8.10-1.19
+	- java 17
+	- krypton 0.2.1
+	- kyrptconfig 1.4.14-1.19 via inventorysorter
+	- lazydfu 0.1.3
+	- lithium 0.10.4
+	- magna 1.8.0-1.19.2 via vanilla-hammers
+	- maybe-data 1.3.2-1.19.2 via deepslatecutting
+	- memoryleakfix 1.19.3-0.7.0
+	- milk 1.0.51 via create
+	- minecraft 1.19.2
+	- mm 2.3 via porting_lib_base
+	- omega-config 1.1.0 via vanilla-hammers
+	- org_jetbrains_kotlin_kotlin-reflect 1.7.22 via fabric-language-kotlin
+	- org_jetbrains_kotlin_kotlin-stdlib 1.7.22 via fabric-language-kotlin
+	- org_jetbrains_kotlin_kotlin-stdlib-jdk7 1.7.22 via fabric-language-kotlin
+	- org_jetbrains_kotlin_kotlin-stdlib-jdk8 1.7.22 via fabric-language-kotlin
+	- org_jetbrains_kotlinx_atomicfu-jvm 0.18.5 via fabric-language-kotlin
+	- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.6.4 via fabric-language-kotlin
+	- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.6.4 via fabric-language-kotlin
+	- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.4.0 via fabric-language-kotlin
+	- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.4.1 via fabric-language-kotlin
+	- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.4.1 via fabric-language-kotlin
+	- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.4.1 via fabric-language-kotlin
+	- origins 1.7.1
+	- owo 0.8.5+1.19
+	- patchouli 1.19.2-77-FABRIC
+	- playerabilitylib 1.6.0 via apoli
+	- porting_lib 2.1.623+1.19.2 via create
+	- porting_lib_accessors 2.1.623+1.19.2 via porting_lib_extensions
+	- porting_lib_attributes 2.1.623+1.19.2 via porting_lib_extensions
+	- porting_lib_base 2.1.623+1.19.2 via porting_lib
+	- porting_lib_common 2.1.623+1.19.2 via porting_lib_extensions
+	- porting_lib_constants 2.1.623+1.19.2 via porting_lib_attributes
+	- porting_lib_entity 2.1.623+1.19.2 via porting_lib
+	- porting_lib_extensions 2.1.623+1.19.2 via porting_lib_transfer
+	- porting_lib_lazy_registration 2.1.623+1.19.2 via porting_lib
+	- porting_lib_model_generators 2.1.623+1.19.2 via porting_lib
+	- porting_lib_model_loader 2.1.623+1.19.2 via porting_lib_obj_loader
+	- porting_lib_models 2.1.623+1.19.2 via porting_lib
+	- porting_lib_networking 2.1.623+1.19.2 via porting_lib
+	- porting_lib_obj_loader 2.1.623+1.19.2 via porting_lib
+	- porting_lib_transfer 2.1.623+1.19.2 via porting_lib
+	- reach-entity-attributes 2.3.0 via create
+	- registrate-fabric 1.1.44-MC1.19.2 via create
+	- rhino 1902.2.2-build.264
+	- serialization_hooks 0.3.26 via porting_lib_base
+	- spark 1.10.17
+	- starlight 1.1.1+fabric.ae22326
+	- static-content 1.0.2-1.16.2 via vanilla-hammers
+	- staticdata 1.1.2 via static-content
+	- t_and_t 1.9
+	- team_reborn_energy 2.2.0 via createaddition
+	- terrablender 2.0.1.130
+	- toms_storage 1.4.5
+	- vanilla-hammers 3.5.0-1.19.2
+	- wands 2.6.3_release
+	- yigd 1.4.6
+[14:26:21] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/mch/multicraft/servers/server105228/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[14:26:21] [main/INFO]: Compatibility level set to JAVA_17
+[14:26:22] [main/INFO]: Loaded configuration file for Lithium: 106 options available, 2 override(s) found
+[14:26:22] [main/WARN]: Reference map 'BuildingWands_mc1.19.2-fabric-refmap.json' for wands.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:26:22] [main/WARN]: Error loading class: net/minecraft/class_304 (java.lang.ClassNotFoundException: net/minecraft/class_304)
+[14:26:22] [main/WARN]: @Mixin target net.minecraft.class_304 was not found ftblibrary-fabric.mixins.json:KeyMappingAccessor from mod ftblibrary
+[14:26:22] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[14:26:22] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
+[14:26:22] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[14:26:23] [main/WARN]: Error loading class: net/minecraft/class_5616 (java.lang.ClassNotFoundException: net/minecraft/class_5616)
+[14:26:23] [main/WARN]: @Mixin target net.minecraft.class_5616 was not found registrate-fabric.mixins.json:accessor.BlockEntityRenderersAccessor from mod registrate-fabric
+[14:26:23] [main/WARN]: Error loading class: twilightforest/util/EntityUtil (java.lang.ClassNotFoundException: twilightforest/util/EntityUtil)
+[14:26:25] [main/INFO]: [bclib] Added Config bclib.generator to auto sync (file hash)
+[14:26:25] [main/INFO]: [bclib] Added Config bclib.main to auto sync (content diff)
+[14:26:25] [main/INFO]: [bclib] Added Config bclib.recipes to auto sync (file hash)
+[14:26:25] [main/INFO]: [bclib] Added Config bclib.biomes to auto sync (file hash)
+[14:26:25] [main/WARN]: Error loading class: org/spongepowered/asm/synthetic/args/Args$4 (java.lang.ClassNotFoundException: org/spongepowered/asm/synthetic/args/Args$4)
+[14:26:27] [main/INFO]: Building unoptimized datafixer
+[14:26:29] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - Nether BiomeSource (3990f312)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 256
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=true, biomeSize=256, biomeSizeVertical=128}
+[14:26:29] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - The End BiomeSource (5a30a3b6)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 128
+    deciders   = 0
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[14:26:29] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - Nether BiomeSource (74a1517c)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[14:26:29] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - The End BiomeSource (7b833a3c)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 128
+    deciders   = 0
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[14:26:29] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - Nether BiomeSource (2bae9490)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=square, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[14:26:29] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - The End BiomeSource (280b56fb)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 128
+    deciders   = 0
+    config     = BCLEndBiomeSourceConfig{mapVersion=square, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[14:26:29] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - Nether BiomeSource (4e4faecd)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=1024, biomeSizeVertical=172}
+[14:26:29] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - The End BiomeSource (4ba0ab66)
+    biomes     = 5
+    namespaces = minecraft
+    seed       = 0
+    height     = 128
+    deciders   = 0
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=512, centerBiomesSize=256, landBiomesSize=1024, barrensBiomesSize=512}
+[14:26:29] [main/INFO]: apoli.mixins.json:ItemSlotArgumentTypeAccessor from mod apoli->@Accessor[FIELD_GETTER]::getSlotNamesToSlotCommandId()Ljava/util/Map; should be static as its target is
+[14:26:29] [main/INFO]: [bclib] Added Config betternether.main to auto sync (file hash)
+[14:26:29] [main/INFO]: [bclib] Added Config betternether.generator to auto sync (file hash)
+[14:26:29] [main/INFO]: [bclib] Added Config betternether.blocks to auto sync (file hash)
+[14:26:29] [main/INFO]: [bclib] Added Config betternether.items to auto sync (file hash)
+[14:26:29] [main/INFO]: [bclib] Added Config betternether.biomes to auto sync (file hash)
+[14:26:29] [main/INFO]: [bclib] Added Config betternether.mobs to auto sync (file hash)
+[14:26:29] [main/INFO]: [bclib] Added Config betternether.recipes to auto sync (file hash)
+[14:26:30] [main/INFO]: [BetterNether] Enabled Vanilla Hammers Integration
+[14:26:30] [main/INFO]: Apoli 2.6.1 has initialized. Ready to power up your game!
+[14:26:30] [main/INFO]: [bclib] Added Config betterend.entities to auto sync (file hash)
+[14:26:30] [main/INFO]: [bclib] Added Config betterend.blocks to auto sync (file hash)
+[14:26:30] [main/INFO]: [bclib] Added Config betterend.items to auto sync (file hash)
+[14:26:30] [main/INFO]: [bclib] Added Config betterend.biomes to auto sync (file hash)
+[14:26:30] [main/INFO]: [bclib] Added Config betterend.recipes to auto sync (file hash)
+[14:26:30] [main/INFO]: [bclib] Added Config betterend.enchantments to auto sync (file hash)
+[14:26:31] [main/INFO]: [betternether] =^..^=    BetterNether for 1.19    =^..^=
+[14:26:33] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
+[14:26:33] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[14:26:33] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[14:26:33] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
+[14:26:33] [main/WARN]: Configuration file ./config/create-common.toml is not correct. Correcting
+[14:26:33] [main/WARN]: Incorrect key worldgen was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:33] [main/WARN]: Incorrect key worldgen.v2 was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:33] [main/WARN]: Incorrect key worldgen.v2.disableWorldGen was corrected from null to its default, false. 
+[14:26:33] [main/WARN]: Incorrect key worldgen.v2.striated_ores_nether was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:33] [main/WARN]: Incorrect key worldgen.v2.striated_ores_nether.clusterSize was corrected from null to its default, 32. 
+[14:26:33] [main/WARN]: Incorrect key worldgen.v2.striated_ores_nether.frequency was corrected from null to its default, 0.0833333358168602. 
+[14:26:33] [main/WARN]: Incorrect key worldgen.v2.striated_ores_nether.minHeight was corrected from null to its default, 40. 
+[14:26:33] [main/WARN]: Incorrect key worldgen.v2.striated_ores_nether.maxHeight was corrected from null to its default, 90. 
+[14:26:33] [main/WARN]: Incorrect key worldgen.v2.striated_ores_overworld was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:33] [main/WARN]: Incorrect key worldgen.v2.striated_ores_overworld.clusterSize was corrected from null to its default, 32. 
+[14:26:33] [main/WARN]: Incorrect key worldgen.v2.striated_ores_overworld.frequency was corrected from null to its default, 0.0833333358168602. 
+[14:26:33] [main/WARN]: Incorrect key worldgen.v2.striated_ores_overworld.minHeight was corrected from null to its default, -30. 
+[14:26:33] [main/WARN]: Incorrect key worldgen.v2.striated_ores_overworld.maxHeight was corrected from null to its default, 70. 
+[14:26:33] [main/WARN]: Incorrect key worldgen.v2.zinc_ore was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:33] [main/WARN]: Incorrect key worldgen.v2.zinc_ore.clusterSize was corrected from null to its default, 12. 
+[14:26:33] [main/WARN]: Incorrect key worldgen.v2.zinc_ore.frequency was corrected from null to its default, 8.0. 
+[14:26:33] [main/WARN]: Incorrect key worldgen.v2.zinc_ore.minHeight was corrected from null to its default, -63. 
+[14:26:33] [main/WARN]: Incorrect key worldgen.v2.zinc_ore.maxHeight was corrected from null to its default, 70. 
+[14:26:33] [main/WARN]: Configuration file ./config/create-client.toml is not correct. Correcting
+[14:26:33] [main/WARN]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:33] [main/WARN]: Incorrect key client.enableTooltips was corrected from null to its default, true. 
+[14:26:33] [main/WARN]: Incorrect key client.enableOverstressedTooltip was corrected from null to its default, true. 
+[14:26:33] [main/WARN]: Incorrect key client.explainRenderErrors was corrected from null to its default, false. 
+[14:26:33] [main/WARN]: Incorrect key client.fanParticleDensity was corrected from null to its default, 0.5. 
+[14:26:33] [main/WARN]: Incorrect key client.filterItemRenderDistance was corrected from null to its default, 10.0. 
+[14:26:33] [main/WARN]: Incorrect key client.enableRainbowDebug was corrected from null to its default, true. 
+[14:26:33] [main/WARN]: Incorrect key client.maximumContraptionLightVolume was corrected from null to its default, 16384. 
+[14:26:33] [main/WARN]: Incorrect key client.mainMenuConfigButtonRow was corrected from null to its default, 2. 
+[14:26:33] [main/WARN]: Incorrect key client.mainMenuConfigButtonOffsetX was corrected from null to its default, -4. 
+[14:26:33] [main/WARN]: Incorrect key client.ingameMenuConfigButtonRow was corrected from null to its default, 3. 
+[14:26:33] [main/WARN]: Incorrect key client.ingameMenuConfigButtonOffsetX was corrected from null to its default, -4. 
+[14:26:33] [main/WARN]: Incorrect key client.ignoreFabulousWarning was corrected from null to its default, false. 
+[14:26:33] [main/WARN]: Incorrect key client.fluidUnitType was corrected from null to its default, MILIBUCKETS. 
+[14:26:33] [main/WARN]: Incorrect key client.simplifyFluidUnit was corrected from null to its default, true. 
+[14:26:33] [main/WARN]: Incorrect key client.toolboxHotbarOverlayOffset was corrected from null to its default, 0. 
+[14:26:33] [main/WARN]: Incorrect key client.goggleOverlay was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:33] [main/WARN]: Incorrect key client.goggleOverlay.overlayOffsetX was corrected from null to its default, 20. 
+[14:26:33] [main/WARN]: Incorrect key client.goggleOverlay.overlayOffsetY was corrected from null to its default, 0. 
+[14:26:33] [main/WARN]: Incorrect key client.goggleOverlay.customColorsOverlay was corrected from null to its default, false. 
+[14:26:33] [main/WARN]: Incorrect key client.goggleOverlay.customBackgroundOverlay was corrected from null to its default, -267386864. 
+[14:26:33] [main/WARN]: Incorrect key client.goggleOverlay.customBorderTopOverlay was corrected from null to its default, 1347420415. 
+[14:26:33] [main/WARN]: Incorrect key client.goggleOverlay.customBorderBotOverlay was corrected from null to its default, 1344798847. 
+[14:26:33] [main/WARN]: Incorrect key client.placementAssist was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:33] [main/WARN]: Incorrect key client.placementAssist.indicatorType was corrected from null to its default, TEXTURE. 
+[14:26:33] [main/WARN]: Incorrect key client.placementAssist.indicatorScale was corrected from null to its default, 1.0. 
+[14:26:33] [main/WARN]: Incorrect key client.ponder was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:33] [main/WARN]: Incorrect key client.ponder.comfyReading was corrected from null to its default, false. 
+[14:26:33] [main/WARN]: Incorrect key client.ponder.editingMode was corrected from null to its default, false. 
+[14:26:33] [main/WARN]: Incorrect key client.sound was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:33] [main/WARN]: Incorrect key client.sound.enableAmbientSounds was corrected from null to its default, true. 
+[14:26:33] [main/WARN]: Incorrect key client.sound.ambientVolumeCap was corrected from null to its default, 0.10000000149011612. 
+[14:26:33] [main/WARN]: Incorrect key client.trains was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:33] [main/WARN]: Incorrect key client.trains.mountedZoomMultiplier was corrected from null to its default, 3.0. 
+[14:26:33] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[14:26:33] [main/WARN]: Configuration file ./config/createaddition-common.toml is not correct. Correcting
+[14:26:33] [main/WARN]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:33] [main/WARN]: Incorrect key general.fe_conversion was corrected from null to its default, 240. 
+[14:26:33] [main/WARN]: Incorrect key general.baseline_stress was corrected from null to its default, 8192. 
+[14:26:33] [main/WARN]: Incorrect key electric_motor was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:33] [main/WARN]: Incorrect key electric_motor.motor_rpm_range was corrected from null to its default, 256. 
+[14:26:33] [main/WARN]: Incorrect key electric_motor.motor_min_consumption was corrected from null to its default, 8. 
+[14:26:33] [main/WARN]: Incorrect key electric_motor.motor_max_input was corrected from null to its default, 256. 
+[14:26:33] [main/WARN]: Incorrect key electric_motor.motor_capacity was corrected from null to its default, 2048. 
+[14:26:33] [main/WARN]: Incorrect key alternator was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:33] [main/WARN]: Incorrect key alternator.generator_max_output was corrected from null to its default, 256. 
+[14:26:33] [main/WARN]: Incorrect key alternator.generator_capacity was corrected from null to its default, 2048. 
+[14:26:33] [main/WARN]: Incorrect key alternator.generator_efficiency was corrected from null to its default, 0.75. 
+[14:26:33] [main/WARN]: Incorrect key rolling_mill was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:33] [main/WARN]: Incorrect key rolling_mill.rolling_mill_processing_duration was corrected from null to its default, 100. 
+[14:26:33] [main/WARN]: Incorrect key rolling_mill.rolling_mill_stress was corrected from null to its default, 16. 
+[14:26:33] [main/WARN]: Incorrect key heater was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:33] [main/WARN]: Incorrect key heater.heater_max_input was corrected from null to its default, 256. 
+[14:26:33] [main/WARN]: Incorrect key heater.heater_capacity was corrected from null to its default, 2048. 
+[14:26:33] [main/WARN]: Incorrect key heater.heater_normal_consumption was corrected from null to its default, 96. 
+[14:26:33] [main/WARN]: Incorrect key heater.heater_furnace_engine_consumption was corrected from null to its default, 1024. 
+[14:26:33] [main/WARN]: Incorrect key heater.heater_furnace_engine_enable was corrected from null to its default, false. 
+[14:26:33] [main/WARN]: Incorrect key wires was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:33] [main/WARN]: Incorrect key wires.connector_max_input was corrected from null to its default, 1024. 
+[14:26:33] [main/WARN]: Incorrect key wires.connector_max_output was corrected from null to its default, 1024. 
+[14:26:33] [main/WARN]: Incorrect key wires.connector_input_capacity was corrected from null to its default, 2048. 
+[14:26:33] [main/WARN]: Incorrect key wires.wire_length was corrected from null to its default, 12. 
+[14:26:33] [main/WARN]: Incorrect key accumulator was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:33] [main/WARN]: Incorrect key accumulator.accumulator_max_input was corrected from null to its default, 512. 
+[14:26:33] [main/WARN]: Incorrect key accumulator.accumulator_max_output was corrected from null to its default, 512. 
+[14:26:33] [main/WARN]: Incorrect key accumulator.accumulator_capacity was corrected from null to its default, 4196000. 
+[14:26:33] [main/WARN]: Incorrect key tesla_coil was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:33] [main/WARN]: Incorrect key tesla_coil.tesla_coil_max_input was corrected from null to its default, 8192. 
+[14:26:33] [main/WARN]: Incorrect key tesla_coil.tesla_coil_charge_rate was corrected from null to its default, 4096. 
+[14:26:33] [main/WARN]: Incorrect key tesla_coil.tesla_coil_recipe_charge_rate was corrected from null to its default, 1024. 
+[14:26:33] [main/WARN]: Incorrect key tesla_coil.tesla_coil_capacity was corrected from null to its default, 32000. 
+[14:26:33] [main/WARN]: Incorrect key tesla_coil.tesla_coil_hurt_energy_required was corrected from null to its default, 1024. 
+[14:26:33] [main/WARN]: Incorrect key tesla_coil.tesla_coil_hurt_range was corrected from null to its default, 3. 
+[14:26:33] [main/WARN]: Incorrect key tesla_coil.tesla_coil_hurt_mob was corrected from null to its default, 3. 
+[14:26:33] [main/WARN]: Incorrect key tesla_coil.tesla_coil_effect_time_mob was corrected from null to its default, 20. 
+[14:26:33] [main/WARN]: Incorrect key tesla_coil.tesla_coil_hurt_player was corrected from null to its default, 2. 
+[14:26:33] [main/WARN]: Incorrect key tesla_coil.tesla_coil_effect_time_player was corrected from null to its default, 20. 
+[14:26:33] [main/WARN]: Incorrect key tesla_coil.tesla_coil_fire_cooldown was corrected from null to its default, 20. 
+[14:26:33] [main/WARN]: Incorrect key misc was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:33] [main/WARN]: Incorrect key misc.diamond_grit_sandpaper_uses was corrected from null to its default, 1024. 
+[14:26:33] [main/WARN]: Incorrect key misc.furnace_burner_engine_speed was corrected from null to its default, 1.0. 
+[14:26:33] [main/WARN]: Incorrect key misc.crude_burner_engine_speed was corrected from null to its default, 2.0. 
+[14:26:33] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[14:26:33] [main/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[14:26:33] [main/INFO]: [STDOUT]: Create Crafts & Addition Initialized!
+[14:26:33] [main/INFO]: Saving config because the loaded bug fixes are different to stored json.
+[14:26:33] [main/INFO]: Saving Debugify
+[14:26:33] [main/INFO]: Enabled 35 bug fixes: [MC-2025, MC-7569, MC-14923, MC-30391, MC-31819, MC-69216, MC-72151, MC-84873, MC-88371, MC-89146, MC-90084, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-124117, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-193343, MC-199467, MC-200418, MC-206922, MC-214147, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[14:26:33] [main/INFO]: Successfully Debugify'd your game!
+[14:26:33] [main/INFO]: Loaded Config! Regular deepslate extras are OFF
+[14:26:33] [main/ERROR]: No data fixer registered for expandedstorage:chest
+[14:26:33] [main/ERROR]: No data fixer registered for expandedstorage:old_chest
+[14:26:33] [main/ERROR]: No data fixer registered for expandedstorage:barrel
+[14:26:33] [main/ERROR]: No data fixer registered for expandedstorage:mini_chest
+[14:26:34] [main/INFO]: Farmer's Knives loaded!
+[14:26:34] [main/INFO]: Registering C2S receiver with id ftbchunks:request_map_data
+[14:26:34] [main/INFO]: Registering C2S receiver with id ftbchunks:request_chunk_change
+[14:26:34] [main/INFO]: Registering C2S receiver with id ftbchunks:teleport_from_map
+[14:26:34] [main/INFO]: Registering C2S receiver with id ftbchunks:sync_tx
+[14:26:34] [main/INFO]: Registering C2S receiver with id ftbchunks:update_force_load_expiry
+[14:26:34] [main/INFO]: Registering C2S receiver with id ftbchunks:server_config_request
+[14:26:34] [main/INFO]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[14:26:34] [main/INFO]: Registering C2S receiver with id ftbteams:open_gui
+[14:26:34] [main/INFO]: Registering C2S receiver with id ftbteams:update_settings
+[14:26:34] [main/INFO]: Registering C2S receiver with id ftbteams:send_message
+[14:26:34] [main/INFO]: Registering C2S receiver with id ftbteams:create_party
+[14:26:34] [main/INFO]: Registering C2S receiver with id ftbteams:player_gui_operation
+[14:26:34] [main/INFO]: Registering C2S receiver with id ftbultimine:key_pressed
+[14:26:34] [main/INFO]: Registering C2S receiver with id ftbultimine:mode_changed
+[14:26:34] [main/INFO]: Is initializing.
+[14:26:34] [main/INFO]: Has successfully been initialized.
+[14:26:34] [main/INFO]: [STDOUT]: [inventorysorter]: Unable to find config: blacklist.json5! Creating a default config
+[14:26:34] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[14:26:34] [main/INFO]: Definitely not up to no good
+[14:26:34] [main/INFO]: Origins 1.7.1 is initializing. Have fun!
+[14:26:34] [main/INFO]: Config loaded
+[14:26:34] [main/INFO]: Tom's Storage Setup starting
+[14:26:34] [main/INFO]: Loaded 14 Static Content files for vanilla-hammers:hammers
+[14:26:34] [main/INFO]: [STDOUT]: No config found, generating!
+[14:26:34] [main/INFO]: Registering C2S receiver with id wands:key_packet
+[14:26:34] [main/INFO]: Registering C2S receiver with id wands:palette_packet
+[14:26:34] [main/INFO]: Registering C2S receiver with id wands:wand_packet
+[14:26:34] [main/INFO]: Registering C2S receiver with id wands:pos_packet
+[14:26:35] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[14:26:35] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:26:35] [main/INFO]: [worlds_together] Creating a new World, no fixes needed
+[14:26:35] [main/INFO]: [DataFixerAPI] Applying Patch{betternether:5.3.5:21020677}
+[14:26:35] [main/INFO]: [DataFixerAPI] Updating Patch-Level for 'betternether' from 0.0.0 to 5.3.5
+[14:26:36] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - Nether BiomeSource (2c8db434)
+    biomes     = 27
+    namespaces = betternether, minecraft
+    seed       = 0
+    height     = 256
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=true, biomeSize=256, biomeSizeVertical=128}
+[14:26:36] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - The End BiomeSource (6098279c)
+    biomes     = 24
+    namespaces = betterend, minecraft
+    seed       = 0
+    height     = 128
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[14:26:36] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - Nether BiomeSource (2222e0e8)
+    biomes     = 27
+    namespaces = betternether, minecraft
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[14:26:36] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - The End BiomeSource (3a2583b7)
+    biomes     = 24
+    namespaces = betterend, minecraft
+    seed       = 0
+    height     = 128
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[14:26:36] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - Nether BiomeSource (3b8ff9d3)
+    biomes     = 27
+    namespaces = betternether, minecraft
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=square, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[14:26:36] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - The End BiomeSource (e9f7bea)
+    biomes     = 24
+    namespaces = betterend, minecraft
+    seed       = 0
+    height     = 128
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=square, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[14:26:36] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - Nether BiomeSource (4d12d276)
+    biomes     = 27
+    namespaces = betternether, minecraft
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=1024, biomeSizeVertical=172}
+[14:26:36] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - The End BiomeSource (4ffb6ccb)
+    biomes     = 24
+    namespaces = betterend, minecraft
+    seed       = 0
+    height     = 128
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=512, centerBiomesSize=256, landBiomesSize=1024, barrensBiomesSize=512}
+[14:26:36] [main/ERROR]: [worlds_together] Unable to parse Version in jar:file:///home/mch/multicraft/servers/server105228/mods/createaddition+1.19.2-1.19.2-20221218a.jar
+[14:26:36] [main/ERROR]: [worlds_together] Unable to parse Version in jar:file:///home/mch/multicraft/servers/server105228/mods/BuildingWands_mc1.19.2-2.6.3_release-fabric.jar
+[14:26:36] [main/ERROR]: [worlds_together] Unable to parse Version in jar:file:///home/mch/multicraft/servers/server105228/mods/create-fabric-0.5.0g-796+1.19.2.jar
+[14:26:36] [main/INFO]: [bclib] Loading from datapack Registry
+[14:26:36] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - The End BiomeSource (3a609847)
+    biomes     = 24
+    namespaces = betterend, minecraft
+    seed       = 0
+    height     = 128
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[14:26:37] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - Nether BiomeSource (ec1655e)
+    biomes     = 27
+    namespaces = betternether, minecraft
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[14:26:37] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[14:26:37] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - The End BiomeSource (6721be82)
+    biomes     = 24
+    namespaces = betterend, minecraft
+    seed       = 0
+    height     = 128
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[14:26:37] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - Nether BiomeSource (797c3f45)
+    biomes     = 27
+    namespaces = betternether, minecraft
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[14:26:37] [main/INFO]: [bclib] Loading from datapack Registry
+[14:26:37] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - The End BiomeSource (506bc0f7)
+    biomes     = 24
+    namespaces = betterend, minecraft
+    seed       = 0
+    height     = 128
+    deciders   = 1
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[14:26:37] [main/INFO]: [bclib] Make sure features are loaded from terrablender
+BCLib - Nether BiomeSource (64734413)
+    biomes     = 27
+    namespaces = betternether, minecraft
+    seed       = 0
+    height     = 128
+    config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/ERROR]: IngredientDeserializer with ID not found: [farmersdelight:tool] this can be ignored unless issues occur.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/ERROR]: Parsing error loading recipe createaddition:compat/ae2/charged_certus_quartz
+com.google.gson.JsonSyntaxException: Unknown item 'ae2:charged_certus_quartz_crystal'
+	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_35228(class_1869.java:240) ~[server-intermediary.jar:?]
+	at com.mrh0.createaddition.recipe.CARecipeSerializer.readOutput(CARecipeSerializer.java:26) ~[createaddition+1.19.2-1.19.2-20221218a.jar:?]
+	at com.mrh0.createaddition.recipe.charging.ChargingRecipeSerializer.readFromJson(ChargingRecipeSerializer.java:37) ~[createaddition+1.19.2-1.19.2-20221218a.jar:?]
+	at com.mrh0.createaddition.recipe.charging.ChargingRecipeSerializer.readFromJson(ChargingRecipeSerializer.java:12) ~[createaddition+1.19.2-1.19.2-20221218a.jar:?]
+	at com.mrh0.createaddition.recipe.CARecipeSerializer.method_8121(CARecipeSerializer.java:20) ~[createaddition+1.19.2-1.19.2-20221218a.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:958) [server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:946) [server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:156) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461) [fabric-loader-0.14.12.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.12.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.14.12.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.14.12.jar:?]
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Suspicious fluid amount in recipe [farmersdelight:create/filling/chocolate_pie]: 500
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Suspicious fluid amount in recipe [farmersdelight:create/mixing/pie_crust_from_mixing]: 250
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type create:block_tag_ingredient.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/WARN]: Tried to read an ingredient of unknown type farmersdelight:tool.
+[14:26:38] [main/INFO]: Loaded 26 recipes
+[14:26:38] [main/INFO]: Loaded 3740 advancements
+[14:26:38] [main/INFO]: Finished loading powers from data files. Registry contains 76 powers.
+[14:26:38] [main/INFO]: Finished loading origins from data files. Registry contains 11 origins.
+[14:26:38] [main/INFO]: Trying to read layer file: origins:origin
+[14:26:38] [main/INFO]: Finished loading origin layers from data files. Read 1 layers.
+[14:26:38] [main/INFO]: Loaded 0 conditional recipes
+[14:26:38] [main/INFO]: Reloading graveyard
+[14:26:38] [main/INFO]: Reloading custom grave areas
+[14:26:38] [main/INFO]: Reloading grave shape (server side)
+[14:26:40] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[14:26:40] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[14:26:41] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[14:26:41] [main/INFO]: Applied 336 biome modifications to 110 of 111 new biomes in 15.92 ms
+[14:26:41] [Server thread/INFO]: Registering compost heaps in village type of plains
+[14:26:41] [Server thread/INFO]: Registering compost heaps in village type of savanna
+[14:26:41] [Server thread/INFO]: Registering compost heaps in village type of snowy
+[14:26:41] [Server thread/INFO]: Registering compost heaps in village type of taiga
+[14:26:41] [Server thread/INFO]: Registering compost heaps in village type of desert
+[14:26:41] [Server thread/WARN]: Configuration file ./World/serverconfig/create-server.toml is not correct. Correcting
+[14:26:41] [Server thread/WARN]: Incorrect key limitAdventureMode was corrected from null to its default, true. 
+[14:26:41] [Server thread/WARN]: Incorrect key infrastructure was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:41] [Server thread/WARN]: Incorrect key infrastructure.tickrateSyncTimer was corrected from null to its default, 20. 
+[14:26:41] [Server thread/WARN]: Incorrect key recipes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:41] [Server thread/WARN]: Incorrect key recipes.bulkPressing was corrected from null to its default, false. 
+[14:26:41] [Server thread/WARN]: Incorrect key recipes.bulkCutting was corrected from null to its default, false. 
+[14:26:41] [Server thread/WARN]: Incorrect key recipes.allowBrewingInMixer was corrected from null to its default, true. 
+[14:26:41] [Server thread/WARN]: Incorrect key recipes.allowShapelessInMixer was corrected from null to its default, true. 
+[14:26:41] [Server thread/WARN]: Incorrect key recipes.allowShapedSquareInPress was corrected from null to its default, true. 
+[14:26:41] [Server thread/WARN]: Incorrect key recipes.allowRegularCraftingInCrafter was corrected from null to its default, true. 
+[14:26:41] [Server thread/WARN]: Incorrect key recipes.maxFireworkIngredientsInCrafter was corrected from null to its default, 9. 
+[14:26:41] [Server thread/WARN]: Incorrect key recipes.allowStonecuttingOnSaw was corrected from null to its default, true. 
+[14:26:41] [Server thread/WARN]: Incorrect key recipes.allowWoodcuttingOnSaw was corrected from null to its default, true. 
+[14:26:41] [Server thread/WARN]: Incorrect key recipes.allowCastingBySpout was corrected from null to its default, true. 
+[14:26:41] [Server thread/WARN]: Incorrect key recipes.allowFillingBySpout was corrected from null to its default, true. 
+[14:26:41] [Server thread/WARN]: Incorrect key recipes.displayLogStrippingRecipes was corrected from null to its default, true. 
+[14:26:41] [Server thread/WARN]: Incorrect key recipes.lightSourceCountForRefinedRadiance was corrected from null to its default, 10. 
+[14:26:41] [Server thread/WARN]: Incorrect key recipes.enableRefinedRadianceRecipe was corrected from null to its default, true. 
+[14:26:41] [Server thread/WARN]: Incorrect key recipes.enableShadowSteelRecipe was corrected from null to its default, true. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.disableStress was corrected from null to its default, false. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.maxBeltLength was corrected from null to its default, 20. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.crushingDamage was corrected from null to its default, 4. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.maxMotorSpeed was corrected from null to its default, 256. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.waterWheelBaseSpeed was corrected from null to its default, 4. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.waterWheelFlowSpeed was corrected from null to its default, 4. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.maxRotationSpeed was corrected from null to its default, 256. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.ignoreDeployerAttacks was corrected from null to its default, CREEPERS. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.kineticValidationFrequency was corrected from null to its default, 60. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.crankHungerMultiplier was corrected from null to its default, 0.009999999776482582. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.minimumWindmillSails was corrected from null to its default, 8. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.windmillSailsPerRPM was corrected from null to its default, 8. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.maxEjectorDistance was corrected from null to its default, 32. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.ejectorScanInterval was corrected from null to its default, 120. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.encasedFan was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanPushDistance was corrected from null to its default, 20. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanPullDistance was corrected from null to its default, 20. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanBlockCheckRate was corrected from null to its default, 30. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.encasedFan.fanRotationArgmax was corrected from null to its default, 256. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.encasedFan.inWorldProcessingTime was corrected from null to its default, 150. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.contraptions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxBlocksMoved was corrected from null to its default, 2048. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxChassisRange was corrected from null to its default, 16. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxPistonPoles was corrected from null to its default, 64. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxRopeLength was corrected from null to its default, 256. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.contraptions.maxCartCouplingLength was corrected from null to its default, 32. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.contraptions.movableSpawners was corrected from null to its default, NO_PICKUP. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.contraptions.amethystMovement was corrected from null to its default, NO_PICKUP. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.contraptions.movableObsidian was corrected from null to its default, UNMOVABLE. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.contraptions.movableReinforcedDeepslate was corrected from null to its default, UNMOVABLE. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.contraptions.moveItemsToStorage was corrected from null to its default, true. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.contraptions.harvestPartiallyGrown was corrected from null to its default, false. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.contraptions.harvesterReplants was corrected from null to its default, true. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2 was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.display_board was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.deployer was corrected from null to its default, 4.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_piston was corrected from null to its default, 4.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.millstone was corrected from null to its default, 4.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_bearing was corrected from null to its default, 4.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.clockwork_bearing was corrected from null to its default, 4.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.cuckoo_clock was corrected from null to its default, 1.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.speedometer was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.copper_backtank was corrected from null to its default, 4.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_saw was corrected from null to its default, 4.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.flywheel was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.encased_chain_drive was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.clutch was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.encased_fan was corrected from null to its default, 2.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.adjustable_chain_gearshift was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_pump was corrected from null to its default, 4.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.crushing_wheel was corrected from null to its default, 8.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_mixer was corrected from null to its default, 4.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.gantry_shaft was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.rope_pulley was corrected from null to its default, 4.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.rotation_speed_controller was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_arm was corrected from null to its default, 2.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_shaft was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_press was corrected from null to its default, 8.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.large_cogwheel was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_drill was corrected from null to its default, 4.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_large_cogwheel was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_large_cogwheel was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mysterious_cuckoo_clock was corrected from null to its default, 1.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.stressometer was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.shaft was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_shaft was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.gearshift was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.turntable was corrected from null to its default, 4.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.sticky_mechanical_piston was corrected from null to its default, 4.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.sequenced_gearshift was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.weighted_ejector was corrected from null to its default, 2.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.cogwheel was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_cogwheel was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.belt was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_cogwheel was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.gearbox was corrected from null to its default, 0.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.hose_pulley was corrected from null to its default, 4.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.impact.mechanical_crafter was corrected from null to its default, 2.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.blue_valve_handle was corrected from null to its default, 8.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.copper_valve_handle was corrected from null to its default, 8.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.pink_valve_handle was corrected from null to its default, 8.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.hand_crank was corrected from null to its default, 8.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.black_valve_handle was corrected from null to its default, 8.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.magenta_valve_handle was corrected from null to its default, 8.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.white_valve_handle was corrected from null to its default, 8.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.yellow_valve_handle was corrected from null to its default, 8.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.brown_valve_handle was corrected from null to its default, 8.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.cyan_valve_handle was corrected from null to its default, 8.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.windmill_bearing was corrected from null to its default, 512.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.light_blue_valve_handle was corrected from null to its default, 8.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.lime_valve_handle was corrected from null to its default, 8.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.purple_valve_handle was corrected from null to its default, 8.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.red_valve_handle was corrected from null to its default, 8.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.steam_engine was corrected from null to its default, 1024.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.creative_motor was corrected from null to its default, 16384.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.gray_valve_handle was corrected from null to its default, 8.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.water_wheel was corrected from null to its default, 16.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.orange_valve_handle was corrected from null to its default, 8.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.light_gray_valve_handle was corrected from null to its default, 8.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.v2.capacity.green_valve_handle was corrected from null to its default, 8.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.stats was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.stats.mediumSpeed was corrected from null to its default, 30.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.stats.fastSpeed was corrected from null to its default, 100.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.stats.mediumStressImpact was corrected from null to its default, 4.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.stats.highStressImpact was corrected from null to its default, 8.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.stats.mediumCapacity was corrected from null to its default, 128.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key kinetics.stressValues.stats.highCapacity was corrected from null to its default, 1024.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key fluids was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:41] [Server thread/WARN]: Incorrect key fluids.fluidTankCapacity was corrected from null to its default, 8. 
+[14:26:41] [Server thread/WARN]: Incorrect key fluids.fluidTankMaxHeight was corrected from null to its default, 32. 
+[14:26:41] [Server thread/WARN]: Incorrect key fluids.mechanicalPumpRange was corrected from null to its default, 16. 
+[14:26:41] [Server thread/WARN]: Incorrect key fluids.hosePulleyRange was corrected from null to its default, 128. 
+[14:26:41] [Server thread/WARN]: Incorrect key fluids.hosePulleyBlockThreshold was corrected from null to its default, 10000. 
+[14:26:41] [Server thread/WARN]: Incorrect key fluids.fillInfinite was corrected from null to its default, false. 
+[14:26:41] [Server thread/WARN]: Incorrect key fluids.bottomlessFluidMode was corrected from null to its default, ALLOW_BY_TAG. 
+[14:26:41] [Server thread/WARN]: Incorrect key fluids.placeFluidSourceBlocks was corrected from null to its default, true. 
+[14:26:41] [Server thread/WARN]: Incorrect key logistics was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:41] [Server thread/WARN]: Incorrect key logistics.defaultExtractionLimit was corrected from null to its default, 64. 
+[14:26:41] [Server thread/WARN]: Incorrect key logistics.defaultExtractionTimer was corrected from null to its default, 8. 
+[14:26:41] [Server thread/WARN]: Incorrect key logistics.psiTimeout was corrected from null to its default, 20. 
+[14:26:41] [Server thread/WARN]: Incorrect key logistics.mechanicalArmRange was corrected from null to its default, 5. 
+[14:26:41] [Server thread/WARN]: Incorrect key logistics.linkRange was corrected from null to its default, 256. 
+[14:26:41] [Server thread/WARN]: Incorrect key logistics.displayLinkRange was corrected from null to its default, 64. 
+[14:26:41] [Server thread/WARN]: Incorrect key logistics.vaultCapacity was corrected from null to its default, 20. 
+[14:26:41] [Server thread/WARN]: Incorrect key schematics was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:41] [Server thread/WARN]: Incorrect key schematics.creativePrintIncludesAir was corrected from null to its default, false. 
+[14:26:41] [Server thread/WARN]: Incorrect key schematics.maxSchematics was corrected from null to its default, 256. 
+[14:26:41] [Server thread/WARN]: Incorrect key schematics.maxSchematicPacketSize was corrected from null to its default, 1024. 
+[14:26:41] [Server thread/WARN]: Incorrect key schematics.schematicIdleTimeout was corrected from null to its default, 600. 
+[14:26:41] [Server thread/WARN]: Incorrect key schematics.schematicannon was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:41] [Server thread/WARN]: Incorrect key schematics.schematicannon.schematicannonDelay was corrected from null to its default, 10. 
+[14:26:41] [Server thread/WARN]: Incorrect key schematics.schematicannon.schematicannonSkips was corrected from null to its default, 10. 
+[14:26:41] [Server thread/WARN]: Incorrect key schematics.schematicannon.schematicannonGunpowderWorth was corrected from null to its default, 20.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key schematics.schematicannon.schematicannonFuelUsage was corrected from null to its default, 0.05000000074505806. 
+[14:26:41] [Server thread/WARN]: Incorrect key curiosities was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:41] [Server thread/WARN]: Incorrect key curiosities.maxSymmetryWandRange was corrected from null to its default, 50. 
+[14:26:41] [Server thread/WARN]: Incorrect key curiosities.placementAssistRange was corrected from null to its default, 12. 
+[14:26:41] [Server thread/WARN]: Incorrect key curiosities.toolboxRange was corrected from null to its default, 10. 
+[14:26:41] [Server thread/WARN]: Incorrect key curiosities.airInBacktank was corrected from null to its default, 900. 
+[14:26:41] [Server thread/WARN]: Incorrect key curiosities.enchantedBacktankCapacity was corrected from null to its default, 300. 
+[14:26:41] [Server thread/WARN]: Incorrect key curiosities.maxExtendoGripActions was corrected from null to its default, 1000. 
+[14:26:41] [Server thread/WARN]: Incorrect key curiosities.maxPotatoCannonShots was corrected from null to its default, 200. 
+[14:26:41] [Server thread/WARN]: Incorrect key trains was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:41] [Server thread/WARN]: Incorrect key trains.trainsCauseDamage was corrected from null to its default, true. 
+[14:26:41] [Server thread/WARN]: Incorrect key trains.maxAssemblyLength was corrected from null to its default, 128. 
+[14:26:41] [Server thread/WARN]: Incorrect key trains.maxBogeyCount was corrected from null to its default, 20. 
+[14:26:41] [Server thread/WARN]: Incorrect key trains.manualTrainSpeedModifier was corrected from null to its default, 0.75. 
+[14:26:41] [Server thread/WARN]: Incorrect key trains.trainStats was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:41] [Server thread/WARN]: Incorrect key trains.trainStats.trainTopSpeed was corrected from null to its default, 28.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key trains.trainStats.trainTurningTopSpeed was corrected from null to its default, 14.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key trains.trainStats.trainAcceleration was corrected from null to its default, 3.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key trains.poweredTrainStats was corrected from null to its default, SimpleCommentedConfig:{}. 
+[14:26:41] [Server thread/WARN]: Incorrect key trains.poweredTrainStats.poweredTrainTopSpeed was corrected from null to its default, 40.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key trains.poweredTrainStats.poweredTrainTurningTopSpeed was corrected from null to its default, 20.0. 
+[14:26:41] [Server thread/WARN]: Incorrect key trains.poweredTrainStats.poweredTrainAcceleration was corrected from null to its default, 3.0. 
+[14:26:41] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/savanna/houses
+[14:26:41] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/snowy/houses
+[14:26:41] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/plains/houses
+[14:26:41] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village minecraft:village/desert/houses
+[14:26:41] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/taiga/houses
+[14:26:41] [Server thread/INFO]: Starting background profiler...
+[14:26:41] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[14:26:41] [Server thread/INFO]: Loading properties
+[14:26:41] [Server thread/INFO]: Default game type: SURVIVAL
+[14:26:41] [Server thread/INFO]: Generating keypair
+[14:26:41] [Server thread/INFO]: Starting Minecraft server on 54.39.93.24:25565
+[14:26:41] [Server thread/INFO]: Using epoll channel type
+[14:26:41] [Server thread/INFO]: Preparing level "World"
+[14:26:41] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:the_nether
+    BCLib - Nether BiomeSource (797c3f45)
+        biomes     = 27
+        namespaces = betternether, minecraft
+        seed       = 0
+        height     = 128
+        config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+[14:26:41] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:overworld
+    class_4766 (32bcd0d2)
+        biomes     = 52
+        namespaces = minecraft
+[14:26:41] [Server thread/INFO]: [bclib] 
+Apply Modifications for minecraft:the_end
+    BCLib - The End BiomeSource (6721be82)
+        biomes     = 24
+        namespaces = betterend, minecraft
+        seed       = 0
+        height     = 128
+        deciders   = 1
+        config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[14:26:41] [Server thread/INFO]: [bclib] World Dimensions: 
+ - minecraft:the_nether: 
+     BCLib - Chunk Generator (52b67f9b) 
+     BCLib - Nether BiomeSource (797c3f45)
+         biomes     = 27
+         namespaces = betternether, minecraft
+         seed       = 0
+         height     = 128
+         config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
+ - minecraft:overworld: 
+     net.minecraft.class_3754@1bdf6669 
+     class_4766 (32bcd0d2)
+         biomes     = 52
+         namespaces = minecraft
+ - minecraft:the_end: 
+     BCLib - Chunk Generator (2f9f02d6) 
+     BCLib - The End BiomeSource (6721be82)
+         biomes     = 24
+         namespaces = betterend, minecraft
+         seed       = 0
+         height     = 128
+         deciders   = 1
+         config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=paulevs, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[14:27:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:27:08] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[14:27:08] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[14:27:08] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[14:27:10] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[14:27:10] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[14:27:10] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[14:27:10] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[14:27:11] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[14:27:11] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[14:27:12] [Worker-Main-10/INFO]: Preparing spawn area: 1%
+[14:27:12] [Worker-Main-10/INFO]: Preparing spawn area: 1%
+[14:27:13] [Worker-Main-5/INFO]: Preparing spawn area: 1%
+[14:27:13] [Worker-Main-9/INFO]: Preparing spawn area: 1%
+[14:27:14] [Worker-Main-8/INFO]: Preparing spawn area: 2%
+[14:27:14] [Worker-Main-8/INFO]: Preparing spawn area: 3%
+[14:27:15] [Worker-Main-9/INFO]: Preparing spawn area: 3%
+[14:27:15] [Worker-Main-7/INFO]: Preparing spawn area: 4%
+[14:27:16] [Worker-Main-7/INFO]: Preparing spawn area: 5%
+[14:27:16] [Worker-Main-8/INFO]: Preparing spawn area: 6%
+[14:27:17] [Worker-Main-13/INFO]: Preparing spawn area: 7%
+[14:27:17] [Worker-Main-13/INFO]: Preparing spawn area: 7%
+[14:27:18] [Worker-Main-5/INFO]: Preparing spawn area: 9%
+[14:27:18] [Worker-Main-3/INFO]: Preparing spawn area: 9%
+[14:27:19] [Worker-Main-12/INFO]: Preparing spawn area: 9%
+[14:27:19] [Worker-Main-7/INFO]: Preparing spawn area: 11%
+[14:27:20] [Worker-Main-11/INFO]: Preparing spawn area: 12%
+[14:27:20] [Worker-Main-10/INFO]: Preparing spawn area: 13%
+[14:27:21] [Worker-Main-3/INFO]: Preparing spawn area: 15%
+[14:27:21] [Worker-Main-11/INFO]: Preparing spawn area: 15%
+[14:27:22] [Worker-Main-9/INFO]: Preparing spawn area: 16%
+[14:27:23] [Worker-Main-13/INFO]: Preparing spawn area: 16%
+[14:27:23] [Worker-Main-9/INFO]: Preparing spawn area: 17%
+[14:27:23] [Worker-Main-4/INFO]: Preparing spawn area: 18%
+[14:27:24] [Worker-Main-6/INFO]: Preparing spawn area: 19%
+[14:27:24] [Worker-Main-7/INFO]: Preparing spawn area: 21%
+[14:27:25] [Worker-Main-5/INFO]: Preparing spawn area: 22%
+[14:27:25] [Worker-Main-11/INFO]: Preparing spawn area: 24%
+[14:27:26] [Worker-Main-12/INFO]: Preparing spawn area: 26%
+[14:27:26] [Worker-Main-6/INFO]: Preparing spawn area: 28%
+[14:27:27] [Worker-Main-9/INFO]: Preparing spawn area: 28%
+[14:27:27] [Worker-Main-11/INFO]: Preparing spawn area: 30%
+[14:27:28] [Worker-Main-11/INFO]: Preparing spawn area: 31%
+[14:27:28] [Worker-Main-4/INFO]: Preparing spawn area: 31%
+[14:27:29] [Worker-Main-4/INFO]: Preparing spawn area: 32%
+[14:27:29] [Worker-Main-8/INFO]: Preparing spawn area: 32%
+[14:27:30] [Worker-Main-13/INFO]: Preparing spawn area: 34%
+[14:27:30] [Worker-Main-7/INFO]: Preparing spawn area: 35%
+[14:27:31] [Worker-Main-5/INFO]: Preparing spawn area: 37%
+[14:27:31] [Worker-Main-8/INFO]: Preparing spawn area: 40%
+[14:27:32] [Worker-Main-10/INFO]: Preparing spawn area: 42%
+[14:27:32] [Worker-Main-6/INFO]: Preparing spawn area: 42%
+[14:27:33] [Worker-Main-10/INFO]: Preparing spawn area: 42%
+[14:27:33] [Worker-Main-10/INFO]: Preparing spawn area: 44%
+[14:27:34] [Worker-Main-9/INFO]: Preparing spawn area: 46%
+[14:27:34] [Worker-Main-6/INFO]: Preparing spawn area: 48%
+[14:27:35] [Worker-Main-11/INFO]: Preparing spawn area: 50%
+[14:27:35] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=1307, y=-58, z=78}
+[14:27:35] [Worker-Main-6/INFO]: Preparing spawn area: 51%
+[14:27:36] [Worker-Main-11/INFO]: Preparing spawn area: 54%
+[14:27:36] [Worker-Main-3/INFO]: Preparing spawn area: 55%
+[14:27:37] [Worker-Main-13/INFO]: Preparing spawn area: 56%
+[14:27:37] [Worker-Main-4/INFO]: Preparing spawn area: 57%
+[14:27:38] [Worker-Main-6/INFO]: Preparing spawn area: 60%
+[14:27:38] [Worker-Main-9/INFO]: Preparing spawn area: 61%
+[14:27:39] [Worker-Main-9/INFO]: Preparing spawn area: 62%
+[14:27:39] [Worker-Main-11/ERROR]: Hanging entity at invalid position: class_2338{x=1307, y=-58, z=78}
+[14:27:39] [Worker-Main-12/INFO]: Preparing spawn area: 64%
+[14:27:40] [Worker-Main-4/INFO]: Preparing spawn area: 65%
+[14:27:40] [Worker-Main-12/INFO]: Preparing spawn area: 68%
+[14:27:41] [Worker-Main-5/INFO]: Preparing spawn area: 68%
+[14:27:41] [Worker-Main-12/INFO]: Preparing spawn area: 69%
+[14:27:42] [Worker-Main-8/INFO]: Preparing spawn area: 71%
+[14:27:42] [Worker-Main-12/INFO]: Preparing spawn area: 73%
+[14:27:43] [Worker-Main-4/INFO]: Preparing spawn area: 74%
+[14:27:43] [Worker-Main-5/INFO]: Preparing spawn area: 76%
+[14:27:44] [Worker-Main-9/INFO]: Preparing spawn area: 76%
+[14:27:44] [Worker-Main-13/INFO]: Preparing spawn area: 79%
+[14:27:45] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=1263, y=-58, z=198}
+[14:27:45] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=1263, y=-58, z=196}
+[14:27:45] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=1262, y=-58, z=196}
+[14:27:45] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=1261, y=-58, z=198}
+[14:27:45] [Worker-Main-13/INFO]: Preparing spawn area: 81%
+[14:27:45] [Worker-Main-6/ERROR]: Hanging entity at invalid position: class_2338{x=1263, y=-58, z=198}
+[14:27:45] [Worker-Main-6/ERROR]: Hanging entity at invalid position: class_2338{x=1261, y=-58, z=200}
+[14:27:45] [Worker-Main-6/ERROR]: Hanging entity at invalid position: class_2338{x=1262, y=-58, z=200}
+[14:27:45] [Worker-Main-6/ERROR]: Hanging entity at invalid position: class_2338{x=1261, y=-58, z=198}
+[14:27:45] [Worker-Main-6/ERROR]: Hanging entity at invalid position: class_2338{x=1264, y=-58, z=200}
+[14:27:45] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=1263, y=-58, z=196}
+[14:27:45] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=1262, y=-58, z=196}
+[14:27:45] [Worker-Main-13/INFO]: Preparing spawn area: 82%
+[14:27:45] [Worker-Main-9/ERROR]: Hanging entity at invalid position: class_2338{x=1307, y=-58, z=78}
+[14:27:45] [Worker-Main-5/ERROR]: Hanging entity at invalid position: class_2338{x=1291, y=-58, z=182}
+[14:27:45] [Worker-Main-13/ERROR]: Hanging entity at invalid position: class_2338{x=1261, y=-58, z=200}
+[14:27:45] [Worker-Main-13/ERROR]: Hanging entity at invalid position: class_2338{x=1262, y=-58, z=200}
+[14:27:45] [Worker-Main-13/ERROR]: Hanging entity at invalid position: class_2338{x=1264, y=-58, z=200}
+[14:27:46] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[14:27:46] [Worker-Main-6/INFO]: Preparing spawn area: 84%
+[14:27:47] [Worker-Main-3/INFO]: Preparing spawn area: 86%
+[14:27:47] [Worker-Main-11/INFO]: Preparing spawn area: 87%
+[14:27:48] [Worker-Main-12/INFO]: Preparing spawn area: 89%
+[14:27:48] [Worker-Main-6/INFO]: Preparing spawn area: 91%
+[14:27:49] [Worker-Main-13/INFO]: Preparing spawn area: 93%
+[14:27:49] [Worker-Main-5/INFO]: Preparing spawn area: 95%
+[14:27:50] [Worker-Main-9/INFO]: Preparing spawn area: 97%
+[14:27:50] [Server thread/INFO]: Time elapsed: 42962 ms
+[14:27:50] [Server thread/INFO]: [MemoryLeakFix] Attempting to ForceLoad All Mixins and clear cache
+[14:27:51] [Server thread/INFO]: [MemoryLeakFix] Done ForceLoad and clearing SpongePowered cache
+[14:27:51] [Server thread/INFO]: Done (69.277s)! For help, type "help"
+[14:27:51] [Server thread/INFO]: Loaded data from grave data file
+[14:28:03] [User Authenticator #1/INFO]: UUID of player Steven5G is 5d690873-ed87-492b-874e-8751d86ce347
+[14:28:03] [Server thread/INFO]: Steven5G[/184.145.50.13:55631] logged in with entity id 468 at (21.5, 78.0, 3.5)
+[14:28:03] [Server thread/INFO]: Sending server config values to client
+[14:28:03] [Server thread/INFO]: Steven5G joined the game
+[14:28:04] [Server thread/INFO]: PLAYER_JOIN
+[14:28:04] [Server thread/INFO]: config sent
+[14:28:04] [Server thread/INFO]: add_player wand
+[14:28:04] [Netty Epoll Server IO #2/INFO]: Receiving client config
+[14:28:05] [Netty Epoll Server IO #2/INFO]: Priority overwritten for player Steven5G. Normal: GRAVE / Robbing: INVENTORY
+[14:28:05] [Server thread/INFO]: [bclib] Received Hello from Client. (server=2.1.5, client=2.1.5)
+[14:28:05] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=2.1.5)
+[14:28:05] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v2.1.5 (size: 1847.8 KiB, download=true)
+[14:28:05] [Server thread/INFO]: [bclib] 	- Listing Mod betternether v7.1.2 (size: 20.9 MiB, download=true)
+[14:28:05] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[14:28:05] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[14:28:05] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.recipes
+[14:28:05] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[14:28:05] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.main
+[14:28:05] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.generator
+[14:28:05] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.blocks
+[14:28:05] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.items
+[14:28:05] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.biomes
+[14:28:05] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.mobs
+[14:28:05] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betternether.recipes
+[14:28:05] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[14:28:05] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[14:28:05] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[14:28:05] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.biomes
+[14:28:05] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.recipes
+[14:28:05] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[14:28:05] [Server thread/INFO]: [bclib] 	- Offering Folder /home/mch/multicraft/servers/server105228/bclib-sync (allowDelete=true)
+[14:28:09] [Server thread/INFO]: Player literal{Steven5G} chose Origin: origins:human, for layer: origins:origin
+[14:28:24] [Server thread/INFO]: Made Steven5G a server operator
+[14:28:29] [Server thread/INFO]: [Steven5G: Set own game mode to Creative Mode]
+[14:28:53] [Worker-Main-12/ERROR]: Hanging entity at invalid position: class_2338{x=1302, y=-58, z=197}
+[14:28:53] [Worker-Main-12/ERROR]: Hanging entity at invalid position: class_2338{x=1302, y=-58, z=197}
+[14:28:55] [Server thread/INFO]: Steven5G lost connection: Disconnected
+[14:28:55] [Server thread/INFO]: Steven5G left the game
+[14:28:55] [Server thread/INFO]: remove player wand
+[14:28:59] [Server thread/INFO]: Saving the game (this may take a moment!)
+[14:28:59] [Server thread/INFO]: Saving grave backup data
+[14:28:59] [Server thread/INFO]: Saved the game
+[14:28:59] [Server thread/INFO]: Stopping the server
+[14:28:59] [Server thread/INFO]: Stopping server
+[14:28:59] [Server thread/INFO]: Saving players
+[14:28:59] [Server thread/INFO]: Saving worlds
+[14:29:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:overworld
+[14:29:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_nether
+[14:29:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[World]'/minecraft:the_end
+[14:29:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (World): All chunks are saved
+[14:29:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:29:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:29:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:29:01] [Server thread/INFO]: Shutting down map thread
